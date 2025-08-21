@@ -1,0 +1,92 @@
+#introduction {
+  background-image: url("./samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#name {
+  font-size: 4rem;
+  color: #239BA7;
+}
+#describer {
+  font-family: "Federant", serif;
+  font-weight: 900;   /* opposite of normal weight */
+  font-size: 3rem;
+  color: #239BA7;
+  font-style: italic; /* opposite of normal */
+}
+.my-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+
+}
+ body, .gradient-background, .contact {
+  background: linear-gradient(265deg,#bdbdbd,#f3e2d4,#3338a0);
+  background-size: 240% 240%;
+  animation: gradient-animation 12s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#about {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#skills {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contact-major-head {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+#contact {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#footer {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.gradient-backgrounds {
+  background: linear-gradient(221deg,#23a6d5,#23d5ab);
+  background-size: 120% 120%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav-link {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white !important;
+  text-decoration: none;
+}
